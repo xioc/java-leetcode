@@ -1,0 +1,17 @@
+class Solution {
+    /**
+     * 通过循环，将三个数的值进行交换
+     *
+     * @param n
+     * @return
+     */
+    public int tribonacci(int n) {
+        int a = 0, b = 1, c = 1;
+        for (int i = n; i > 0; i--) {
+            c = a + b + c;
+            b = c - a - b;
+            a = c - a - b;
+        }
+        return a;
+    }
+}
