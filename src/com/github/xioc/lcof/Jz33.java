@@ -57,9 +57,10 @@ public class Jz33 {
     }
 
     public static void main(String[] args) {
-        int[] in = {7, 4, 6, 5};
+        //int[] in = {7, 4, 6, 5};
         //int[] in = {5, 7, 6};
-        System.out.println(new Jz33().verifyPostorder(in));
+        int[] in = {1, 2, 5, 10, 6, 9, 4, 3};
+        System.out.println(new Jz33().verifyPostorder2(in));
     }
 
     public boolean verifyPostorder2(int[] postorder) {
@@ -67,15 +68,24 @@ public class Jz33 {
     }
 
     /**
-     *
-     * @param postorder
-     * @param i
-     * @param j
-     * @return
+     * @param postorder 待验证数组
+     * @param start     数组起始位置
+     * @param end       数组结束位置
+     * @return 是否满足二叉搜索树
      */
-    private boolean recur(int[] postorder, int i, int j) {
-
-
-        return false;
+    private boolean recur(int[] postorder, int start, int end) {
+        //用>= 是为了判断无右子树的情况，例如 [1,2]
+        if (start >= end) {
+            return true;
+        }
+        int p = start;
+        while (postorder[p] < postorder[end]) {
+            p++;
+        }
+        int m = p;
+        while (postorder[p] > postorder[end]) {
+            p++;
+        }
+        return p == end && recur(postorder, start, m - 1) && recur(postorder, m, end - 1);
     }
 }
