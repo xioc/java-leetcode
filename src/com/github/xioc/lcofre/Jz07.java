@@ -46,7 +46,8 @@ public class Jz07 {
         int i = dic.get(pre[preRoot]);
         root.left = recur(preRoot + 1, inLeft, i - 1);
         //注意:右子树的根结点坐标计算
-        root.right = recur(preRoot - inLeft + i + 1, i + 1, inRight);
+        //左子树的长度=中序遍历中根结点index - 1 - inLeft + 1
+        root.right = recur(preRoot + (i - inLeft) + 1, i + 1, inRight);
         return root;
     }
 }
