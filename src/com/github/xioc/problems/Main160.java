@@ -3,7 +3,7 @@ package com.github.xioc.problems;
 import com.github.xioc.basic.ListNode;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @create 2020/8/31 9:49 上午
  */
 public class Main160 {

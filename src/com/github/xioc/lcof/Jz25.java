@@ -3,7 +3,7 @@ package com.github.xioc.lcof;
 import com.github.xioc.basic.ListNode;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @create 2020/8/30 5:07 下午
  */
 public class Jz25 {

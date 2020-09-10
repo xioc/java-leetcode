@@ -1,7 +1,7 @@
 package com.github.xioc.problems;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @create 2020/6/5 3:31 下午
  */
 public class Main3 {

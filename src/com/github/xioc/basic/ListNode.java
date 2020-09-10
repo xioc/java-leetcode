@@ -1,7 +1,7 @@
 package com.github.xioc.basic;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @create 2020/6/5 10:17 下午
  */
 public class ListNode {

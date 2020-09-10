@@ -3,7 +3,7 @@ package com.github.xioc.lcof;
 import com.github.xioc.basic.TreeNode;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @date 2020/9/2 10:09
  */
 public class Jz28 {

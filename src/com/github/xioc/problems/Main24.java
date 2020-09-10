@@ -5,7 +5,7 @@ import com.github.xioc.basic.ListNode;
 import java.util.Stack;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @create 2020/6/5 10:17 下午
  */
 public class Main24 {

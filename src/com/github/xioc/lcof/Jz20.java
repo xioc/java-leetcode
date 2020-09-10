@@ -1,7 +1,7 @@
 package com.github.xioc.lcof;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @create 2020/8/30 9:50 上午
  */
 public class Jz20 {

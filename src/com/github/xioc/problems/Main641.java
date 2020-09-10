@@ -5,7 +5,7 @@ import com.github.xioc.basic.MyCircularDeque;
 import java.util.Arrays;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @create 2020/7/4 5:52 下午
  */
 public class Main641 {

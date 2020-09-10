@@ -2,7 +2,7 @@ package com.github.xioc.lcof;
 
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @date 2020/9/4 22:26
  */
 public class Jz49 {

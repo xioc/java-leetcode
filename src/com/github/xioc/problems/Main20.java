@@ -3,7 +3,7 @@ package com.github.xioc.problems;
 import java.util.Stack;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @create 2020/6/11 2:50 下午
  */
 public class Main20 {

@@ -3,7 +3,7 @@ package com.github.xioc.lcofre;
 import java.util.Arrays;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @date 2020/9/2 10:49
  */
 public class Jz29 {

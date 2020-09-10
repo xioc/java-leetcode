@@ -4,7 +4,7 @@ package com.github.xioc.lcof;
 import java.util.Arrays;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @create 2020/8/21 10:18 下午
  */
 public class Jz29 {

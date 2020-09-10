@@ -3,7 +3,7 @@ package com.github.xioc.lcof;
 import com.github.xioc.basic.ListNode;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @create 2020/8/31 9:19 上午
  */
 public class Jz52 {

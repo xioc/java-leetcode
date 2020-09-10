@@ -3,7 +3,7 @@ package com.github.xioc.lcof;
 import java.util.*;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @date 2020/9/4 19:38
  */
 public class Jz41 {

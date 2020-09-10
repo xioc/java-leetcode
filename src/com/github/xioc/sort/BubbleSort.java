@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 冒泡排序Java实现
  *
- * @author huyanglin
+ * @author hyldev
  * @date 2020/9/7 15:31
  */
 public class BubbleSort {

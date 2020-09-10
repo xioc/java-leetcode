@@ -4,7 +4,7 @@ package com.github.xioc.lcof;
 import java.util.Stack;
 
 /**
- * @author huyanglin
+ * @author hyldev
  * @date 2020/9/2 14:34
  */
 public class Jz30 {
