@@ -7,8 +7,12 @@ import java.util.HashMap;
 /**
  * @author hyldev
  * @date 2020/9/10 09:23
+ * @see Jzii07
+ * Jzii07为另解
  */
 public class Jz07 {
+
+
 
     /**
      * 建立值和下标的对应关系，可以根据值快速查询到在中序遍历中的下标

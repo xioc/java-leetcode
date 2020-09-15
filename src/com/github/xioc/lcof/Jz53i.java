@@ -3,8 +3,10 @@ package com.github.xioc.lcof;
 /**
  * @author hyldev
  * @date 2020/9/14 18:58
+ * <p>
  * 统计一个数字在排序数组中出现的次数。
  * 思路：折半查找
+ * 掌握程度：一次通过
  */
 public class Jz53i {
     public int search(int[] nums, int target) {

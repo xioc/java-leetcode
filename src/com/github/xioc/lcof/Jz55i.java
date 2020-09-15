@@ -10,9 +10,9 @@ import java.util.Queue;
  * @date 2020/9/14 22:31
  * 思路：DFS和BFS两种方式
  * 1.DFS  后序遍历二叉树，树的高度=Max(左子树高度，右子树高度)+1
- * 2.BFS
- * 掌握程度：
- * note:
+ * 2.BFS 广度优先，按层次遍历二叉树
+ * 掌握程度：看题解后理解其BFS思路
+ * note: 树的层次遍历利用队列实现
  */
 public class Jz55i {
     /**
