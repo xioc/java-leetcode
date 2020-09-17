@@ -156,4 +156,7 @@ note:循环队列，可以空出一个位置来实现，也可以增加一个变
 
 ## 4 剑指offer面试题
 #### 3 数组中重复的数字
-[代码](./code/jz03/Solution.java)     
+[代码](./code/jz03/Solution.java)    
+
+#### 4 滑动窗口的最大值
+[笔记](./note/Jz59-1.md)  
