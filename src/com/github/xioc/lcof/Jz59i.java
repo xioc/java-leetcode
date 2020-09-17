@@ -51,6 +51,7 @@ public class Jz59i {
         res[0] = deque.peekFirst();
         //形成窗口后
         for (int i = k; i < nums.length; i++) {
+            //TODO ???
             if (deque.peekFirst() == nums[i - k]) {
                 deque.removeFirst();
             }
