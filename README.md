@@ -160,3 +160,27 @@ note:循环队列，可以空出一个位置来实现，也可以增加一个变
 
 #### 59-1 滑动窗口的最大值
 [笔记](./note/Jz59-1.md)  
+
+## 5 LeetCode精选题分类
+### 1 算法思想
+#### 1 双指针   
+T167 有序数组的Two Sum  
+[代码](./src/com/github/xioc/problems/Main167.java)    
+
+T633 两个数的平方和  
+[代码](./src/com/github/xioc/problems/Main633.java)     
+
+T345 交换字符串中的元音字母     
+[代码](./src/com/github/xioc/problems/Main345.java)  
+
+T88 合并两个有序数组     
+[代码](./src/com/github/xioc/problems/Main88.java)  
+    
+#### 2 排序  
+#### 3 贪心思想  
+#### 4 二分查找
+#### 5 分治
+#### 6 搜索
+#### 7 动态规划  
+#### 8 数学  
+### 2 数据结构相关
