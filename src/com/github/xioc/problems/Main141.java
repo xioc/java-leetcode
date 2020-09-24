@@ -5,25 +5,24 @@ import com.github.xioc.basic.ListNode;
 /**
  * @author hyldev
  * @create 2020/6/5 10:42 下午
+ * <p>
+ * 思路：如果链表有环，则快慢指针一定会相遇
+ * note：使用双指针
+ * 掌握程度：学习思路，自己写代码
  */
 public class Main141 {
-    public static void main(String[] args) {
-        ListNode node1 = new ListNode(1);
-        ListNode node2 = new ListNode(2);
-        ListNode node3 = new ListNode(3);
-        ListNode node4 = new ListNode(4);
-        node1.next = node2;
-        node2.next = node3;
-        node3.next = node4;
-    }
-
-    public boolean hasCycle(ListNode head) {
-        if (head == null || head.next == null) {
+    /**
+     * 判断链表是否有环
+     *
+     * @param head
+     * @return
+     */
+    public boolean hasCycle2(ListNode head) {
+        if (head == null) {
             return false;
         }
-        ListNode slow = head.next;
-        ListNode fast = head.next.next;
-        while (fast != null && fast.next != null) {
+        ListNode slow = head, fast = head.next;
+        while (slow != null && fast != null && fast.next != null) {
             if (slow == fast) {
                 return true;
             }
