@@ -1,6 +1,6 @@
-## 
+## 数组中重复的数字  
 ## 题目链接
-[传送门]()
+[传送门](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
 ## 代码
 ```java
 class Solution {
