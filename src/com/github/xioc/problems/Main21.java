@@ -2,6 +2,8 @@ package com.github.xioc.problems;
 
 import com.github.xioc.basic.ListNode;
 
+import static com.github.xioc.basic.ListNodeUtils.createListNode;
+
 /**
  * @author: hyl
  * @time: 2022/08/17 09:18:12
@@ -32,16 +34,6 @@ public class Main21 {
         return result.next;
     }
 
-    public static ListNode createListNode(int... val) {
-        ListNode head = new ListNode(-1);
-        ListNode result = head;
-        for (int i : val) {
-            ListNode t = new ListNode(i);
-            head.next = t;
-            head = head.next;
-        }
-        return result.next;
-    }
 
     public static void main(String[] args) {
         ListNode node1 = createListNode(1, 2, 4);
